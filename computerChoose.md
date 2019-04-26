@@ -156,6 +156,30 @@
 
 # 新电脑软件的安装
 
+Bios 升级
+换桌面
+换bash
+shaw
+设置Ubuntu常亮
+
+安装vim
+安装git
+
+## 操作的顺序
+
+- 将.bashrc文件复制到新电脑
+- 更改terminal的样式（手动preferences）
+- [16屏幕常亮](http://www.linuxdiyf.com/linux/19321.html) 18 privacy
+- 安装pip3 sudo apt-get install python3-pip
+- [安装shadowsocks](https://secure.shadowsocks.nu/knowledgebase/40/Shadowsocks----Linux.html#%E5%91%BD%E4%BB%A4%E8%A1%8C%E5%AE%A2%E6%88%B7%E7%AB%AF)
+    pip install shadowsocks
+    apt-get install shadowsocks-libev
+    cpan Net::Shadowsocks
+- 安装chrome
+- 安装vscode(ideb)
+- 安装搜狗拼音输入法
+
+
 碰到的问题  解决办法
 不能识别U盘 modprobe usb-storage，再重新插入
 
@@ -164,8 +188,10 @@
 文件    作用
 .bashrc 用户的快捷键
 
-
 ## 系统必备软件
+
+- 搜狗拼音输入法
+- chrome
 
 ## 编程软件
 vscode
