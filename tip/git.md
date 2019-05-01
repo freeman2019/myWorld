@@ -231,7 +231,10 @@ export_on_save:
 ## 使用时的一些补充
 
 - 推送本地的新分支到远程仓库并同步
-- 删除远程分支 git push origin :branch-name
+- 删除分支
+    - 删除本地分支 git branch -d branch-name
+    - 删除远程分支 git push origin :branch-name
+
 
 
 [TOC]
