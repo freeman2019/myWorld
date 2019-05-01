@@ -12,3 +12,9 @@
 4. save the gist id
 5. Press Shift + Alt + D
 6. put in token key than gist id
+
+
+
+## 插件列表
+
+- terminal tabs 可以在vscode里面使用终端
