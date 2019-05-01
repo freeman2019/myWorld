@@ -1,5 +1,16 @@
-[TOC]
+---
+html:
+    embed_local_images: true
+    embed_svg: true
+    offline: true
+    toc: true
 
+export_on_save:
+    html: true
+---
+
+
+[TOC]
 
 # git的使用方法
 
@@ -40,15 +51,15 @@
 
 - **git push [remote-name] [local-branch]:[branch-name]	将本地的库推送到远程库**
 
-|命令|简化|
-|-|-|
-|git status|gits|
-|git add|gita|
-|git branch|gitb|
-|git push|gitp|
-|git remote|gitr|
-|git commit|gitc|
-|git checkout|gitch|
+| 命令         | 简化  |
+|--------------|-------|
+| git status   | gits  |
+| git add      | gita  |
+| git branch   | gitb  |
+| git push     | gitp  |
+| git remote   | gitr  |
+| git commit   | gitc  |
+| git checkout | gitch |
 
 ## .gitignore的一些使用方法
 
@@ -217,4 +228,9 @@
     --tags			同步所有标签
 
 
-    [TOC]
+## 使用时的一些补充
+
+- 推送本地的新分支到远程仓库并同步
+
+
+[TOC]
