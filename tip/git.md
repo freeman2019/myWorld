@@ -235,6 +235,8 @@ export_on_save:
     - 删除本地分支 git branch -d branch-name
     - 删除远程分支 git push origin :branch-name
 - 合并分支 在vscode的命令行输入git merge 选择想要和当前分支合并的分支就行了
-
+- 删除已经跟踪的文件
+    - 同时从工作目录中删除 git rm file_path
+    - 只是取消跟踪，但在工作目录中保留 git rm --cached file_path
 
 [TOC]
